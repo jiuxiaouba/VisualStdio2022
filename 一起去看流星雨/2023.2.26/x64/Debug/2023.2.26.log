@@ -1,0 +1,5 @@
+﻿  源.c++
+D:\韦广豪\Documents\Visuai Studio2022项目文件\2023.2.26\2023.2.26\源.c++(117,12): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+D:\韦广豪\Documents\Visuai Studio2022项目文件\2023.2.26\2023.2.26\源.c++(166,70): warning C4566: 由通用字符名称“\u2665”表示的字符不能在当前代码页(936)中表示出来
+D:\韦广豪\Documents\Visuai Studio2022项目文件\2023.2.26\2023.2.26\源.c++(166,78): warning C4566: 由通用字符名称“\u2661”表示的字符不能在当前代码页(936)中表示出来
+  2023.2.26.vcxproj -> D:\韦广豪\Documents\Visuai Studio2022项目文件\2023.2.26\x64\Debug\2023.2.26.exe
