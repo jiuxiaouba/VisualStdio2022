@@ -1,0 +1,51 @@
+﻿  main.cpp
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(13,29): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\Visual Sttudio2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(13,29): message : 尝试匹配参数列表“(IMAGE *, const char [8])”时
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(15,34): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\Visual Sttudio2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(15,34): message : 尝试匹配参数列表“(IMAGE *, const char [11])”时
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(16,34): error C2665: “loadimage”: 2 个重载中没有一个可以转换所有参数类型
+D:\Visual Sttudio2019\VC\Auxiliary\VS\include\easyx.h(266,6): message : 可能是“void loadimage(IMAGE *,LPCTSTR,int,int,bool)”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(16,34): message : 尝试匹配参数列表“(IMAGE *, const char [11])”时
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(17,48): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(17,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(18,48): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(18,16): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(19,2): error C2065: “ExMessage”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(19,12): error C2146: 语法错误: 缺少“;”(在标识符“m”的前面)
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(19,12): error C2065: “m”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(39,28): error C2665: “outtextxy”: 2 个重载中没有一个可以转换所有参数类型
+D:\Visual Sttudio2019\VC\Auxiliary\VS\include\easyx.h(234,6): message : 可能是“void outtextxy(int,int,TCHAR)”
+D:\Visual Sttudio2019\VC\Auxiliary\VS\include\easyx.h(233,6): message : 或    “void outtextxy(int,int,LPCTSTR)”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(39,28): message : 尝试匹配参数列表“(int, int, char [10])”时
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(41,17): error C2065: “m”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(41,20): error C2065: “EM_MOUSE”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(41,31): error C2065: “EM_KEY”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(41,4): error C3861: “peekmessage”: 找不到标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(42,8): error C2065: “m”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(43,13): error C2065: “m”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(45,9): error C2065: “m”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(50,14): error C2065: “m”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(53,53): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [19]”转换为“LPCWSTR”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(53,20): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(54,52): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(54,20): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(55,52): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(55,20): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(57,14): error C2065: “m”: 未声明的标识符
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(60,53): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [19]”转换为“LPCWSTR”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(60,20): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(61,52): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(61,20): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(62,52): error C2664: “MCIERROR mciSendStringW(LPCWSTR,LPWSTR,UINT,HWND)”: 无法将参数 1 从“const char [18]”转换为“LPCWSTR”
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(62,20): message : 与指向的类型无关；强制转换要求 reinterpret_cast、C 样式强制转换或函数样式强制转换
+D:\Windows Kits\10\Include\10.0.22000.0\um\mciapi.h(87,1): message : 参见“mciSendStringW”的声明
+D:\韦广豪\Documents\各类型代码\本草纲目\本草纲目\main.cpp(37,4): error C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
